@@ -89,7 +89,7 @@ store graphics (`assets/<appname>/`). Structured-data publisher = the privacy co
 
 ## DNS (reference)
 - `nawqira.com`: DNS managed in Cloudflare, records **DNS only** (grey cloud): apex A/AAAA to
-  GitHub Pages, `www` CNAME `juanpbarroso82.github.io`, plus the GitHub Pages
+  GitHub Pages, `www` CNAME `nawqira.github.io` (changed by the owner 2026-11-16 after the GitHub account rename; verified: resolves via 1.1.1.1 and 8.8.8.8, www 301 to apex, HTTPS OK, Pages domain verified), plus the GitHub Pages
   domain-verification TXT. HTTPS by GitHub Pages (Let's Encrypt), "Enforce HTTPS" on.
 - `nawqira.es`: registered at IONOS, DNS moved to Cloudflare (IONOS MX records kept);
   proxied placeholder A records (192.0.2.1) for `@` and `www` + redirect rule (301) to
